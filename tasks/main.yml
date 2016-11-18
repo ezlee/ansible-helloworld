@@ -1,0 +1,5 @@
+---
+# tasks file for helloworld
+- name: copy hello world file
+  copy: src=helloworld.txt dest=/tmp/helloworld.txt owner=root group=root mode=0644
+
